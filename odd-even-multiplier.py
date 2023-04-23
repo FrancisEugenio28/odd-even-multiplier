@@ -18,5 +18,5 @@ for num in numbers:
 with open("double.txt", "w") as even_file:
     for num in even:
         double = num ** 2
-        even_file.write(int(double) + "\n")
+        even_file.write(str(double) + "\n")
 # create the new txt file for odd but tripled
