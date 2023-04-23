@@ -20,3 +20,7 @@ with open("double.txt", "w") as even_file:
         double = num ** 2
         even_file.write(str(double) + "\n")
 # create the new txt file for odd but tripled
+with open("triple.txt", "w") as odd_file:
+    for num in odd:
+        triple = num ** 3
+        odd_file.write(str(triple) + "\n")
